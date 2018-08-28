@@ -1,4 +1,4 @@
-# Scentbird boiler plate
+# Scentbird boilerplate
 
 
 
