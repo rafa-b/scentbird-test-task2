@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/scentbird/scentbird-test-task"
   },
   "homepage": "",
   "main": "./bin/server",
@@ -27,10 +27,7 @@
     "react": "~16.2.0",
     "react-dom": "~16.2.0",
     "react-css-modules": "^4.1.0",
-    "react-immutable-proptypes": "^2.1.0",
     "react-redux": "^5.0.2",
-    "react-router": "^3.0.5",
-    "react-router-redux": "^4.0.7",
     "redux": "^3.6.0",
     "sanitize.css": "^5.0.0"
   },
