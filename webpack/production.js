@@ -3,18 +3,10 @@ import UglifyJsPlugin from 'uglifyjs-webpack-plugin'
 
 
 export default (webpackConfig) => {
-  delete webpackConfig.devtool
 
   webpackConfig.plugins.push(
     new UglifyJsPlugin({
       comments: false,
-      compress: {
-        pure_getters: true,
-        unsafe: true,
-        unsafe_comps: true,
-        warnings: false,
-        screw_ie8: true,
-      },
     }),
   )
 
