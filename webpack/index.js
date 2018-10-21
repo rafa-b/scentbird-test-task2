@@ -5,6 +5,7 @@ import production from './production'
 
 const appEnv = process.env.NODE_ENV || 'development'
 let webpackConfig
+console.log(appEnv);
 
 if (appEnv !== 'development') {
   webpackConfig = production(base)
